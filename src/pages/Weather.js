@@ -14,7 +14,7 @@ export default function Weather() {
     setError(null);
     
     try {
-      const apiKey = "eb82c72654be5c4812468ca46a496bd5";
+      const apiKey = "your_api_key";
       const res = await fetch(
         `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
       );
